@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                 <img src="log.png">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="headerText">
+                <p>Web Developer</p>
+                <h1>Hii, I'm Rimanshi Gupta</h1>
+            </div>
+        </div>
+        <img src="rg.jpg"> 
+    </div>
+<!-- ----------------------------About--------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutCol1">
+                    <img src="R_pic.png" alt="">
+                </div>
+                <div class="aboutCol2">
+                    <h1 class="subTitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sint, neque distinctio hic impedit reprehenderit consequatur officia odit! Temporibus accusantium distinctio minus? Quo excepturi temporibus magnam tempora, reprehenderit exercitationem voluptatibus.</p>
+                    <div class="tabTitle">
+                        <p class="tabLinks activeLink" onclick="opentab('Skills')">Skills</p>
+                        <p class="tabLinks" onclick="opentab('Education')">Education</p>
+                        <p class="tabLinks" onclick="opentab('Contact')">Contact</p>
+                    </div>
+                    <div class="tabContent activeTab" id="Skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Web Application Development</li>
+                            <li><span>Python Developer</span><br>Developing Python based Application</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------Education----------------- -->
+<div class="Education">
+    <div class="container">
+        <h1 class="subTitle">My Education</h1>
+        <div class="educationList">
+            <ul>
+                <li><span>2023-present</span><br>MCA from SRM UNIVERSITY</li>
+                            <li><span>2022</span><br>BCA from Patna University</li>
+                            <li><span>2019</span><br>12th from Patliputra University</li>
+                            <li><span>2017</span><br>10th from St.M.G. Public School</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- ----------------Achievements------------------- -->
+<div class="achievments">
+    <div class="container">
+        <h1 class="subTitle">My Achievments</h1>
+        <div class="achivementsList"></div>
+            <ul>
+                <li>Got 3rd prize in a CPE Project in college</li>
+                <li>Co ordinated group based activities in a TCS YEP Program</li>
+                <li>Won a bronze medal in NSO at School level</li>
+            </ul>
+    </div>
+</div>
+<!-- -----------------------Services----------------------- -->
+<div class="services">
+    <div class="container">
+        <h1 class="subTitle">My Services</h1>
+        <div class="servicesList">
+            
+            <div>
+                 <img src="serv.png" > 
+                <h2>Web Design</h2>
+                <p>Deisgning web pages and web sites or creating front end for applications </p>
+                <a href="#">Learn more</a>
+               
+            </div>
+            <div>
+                <img src="pyt.png" >
+                <h2>Python Developer</h2>
+                <p>Creating Python based applications and connecting them with their respective front ends.</p>
+                <a href="#">Learn more</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- ------------------------Contact----------------------- -->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactLeft">
+                <h1 class="subTitle">Contact Me</h1>
+                <p>rg230402@gmail.com</p>
+                <p>8409051491</p>
+                <div class="socialIcons">
+                    <a href="https://www.instagram.com/its_r_gupta_?igsh=NGc1dXE2YTRxcHB1"><img src="ig.png"\a>
+                    <a href="https://www.linkedin.com/in/rimanshi-gupta-619855246 "><img src="lin.png"></a>
+                </div>
+                <a href="#" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contactRight">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <img src="co.png"> Rimanshi Gupta</p>
+    </div>
+</div>
+</body>
+</html>
